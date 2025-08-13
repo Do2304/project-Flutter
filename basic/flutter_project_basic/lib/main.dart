@@ -3,6 +3,7 @@ import './Project1_SimpleCalculatorAppusingFlutter/caculator.dart';
 import 'Project2_BMIApp/bmi.dart';
 import 'Project3_BuildingTicTacToeGame/BuildTicTacToeGame.dart';
 import 'Project4_StoreApp/storyApp.dart';
+import 'Project5_BuildTodoApp/todoApp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       // home: CalculaterPage(),
       // home: BMICalculaterPage(),
       // home: BuildTicTacToeGame(),
-      home: storyApp(),
+      // home: storyApp(),
+      home: todoApp(),
     );
   }
 }
