@@ -5,6 +5,7 @@ import 'Project3_BuildingTicTacToeGame/BuildTicTacToeGame.dart';
 import 'Project4_StoreApp/storyApp.dart';
 import 'Project5_BuildTodoApp/todoApp.dart';
 import 'Project6_BuildBirthDayReminder/birthdayReminderApp.dart';
+import 'Project7_FortuneWheelSpin/fortuneWheelSpin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
       // home: BuildTicTacToeGame(),
       // home: storyApp(),
       // home: todoApp(),
-      home: BirthdayReminderApp(),
+      // home: BirthdayReminderApp(),
+      home: FortuneWheelSpin(),
     );
   }
 }
